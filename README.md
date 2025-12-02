@@ -1,6 +1,6 @@
 # Hipótesis del Fondo Dinámico (Dynamic Background Hypothesis)
 
-[![DOI](https://zenodo.org/badge/DOI/TU_DOI_AQUI.svg)](https://doi.org/TU_DOI_AQUI)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
@@ -59,12 +59,12 @@ pip install -r requirements.txt
 * Ejemplo: Ejecutar la simulación de Lente Gravitacional:
 
 ```bash
-python src/03_gravedad/sim_03_lente_gravitacional
+python src/03_gravedad/sim_03_lente_gravitacional.py
 ```
 
 ## Citación
 Si utiliza este material, por favor cite el trabajo original archivado en Zenodo:
-Chiclano Bleda, R. (2025). Hipótesis del Fondo Dinámico. Zenodo. https://doi.org/10.5281/zenodo.17748410
+>Chiclano Bleda, R. (2025). Hipótesis del Fondo Dinámico. Zenodo. https://doi.org/10.5281/zenodo.17748410
 
 ## Licencia y Derechos
 Este trabajo está licenciado bajo Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
