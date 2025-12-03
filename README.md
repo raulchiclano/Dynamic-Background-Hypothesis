@@ -1,6 +1,7 @@
 # Hipótesis del Fondo Dinámico (Dynamic Background Hypothesis)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17800468.svg)](https://doi.org/10.5281/zenodo.17800468)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
