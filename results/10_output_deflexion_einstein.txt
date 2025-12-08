@@ -1,0 +1,10 @@
+--- TEST DE DEFLEXIÓN DE LUZ (MAGNITUD DE CORRECCIÓN) ---
+Gradiente gravitatorio al cuadrado en el Sol (X_solar): 9.37e-30 m^-2
+
+Derivada L_X  (Gravedad Newtoniana): 0.125*X + alpha/4
+Derivada L_XX (Corrección No Lineal): 0.125000000000000
+Ratio de Corrección Algebraico: 0.125*X/(0.125*X + alpha/4)
+
+--- CONDICIÓN DE ÉXITO ---
+Para recuperar GR en el Sol, alpha debe ser mayor que: 4.69e-30
+(Recordemos: X_solar es muy pequeño, ~10^-11. Alpha debe ser mayor que eso).

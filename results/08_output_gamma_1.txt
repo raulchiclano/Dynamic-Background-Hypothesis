@@ -1,0 +1,25 @@
+--- INICIANDO CÁLCULO PPN (GAMMA) - VERSIÓN CORREGIDA ---
+
+Expansiones (hasta O(epsilon)):
+ g00 = -4*epsilon*rho_0/c_s - 2*rho_0/c_s + 2*epsilon*rho_0/c_s**3 + rho_0/c_s**3
+ grr = 2*epsilon*rho_0/c_s + rho_0/c_s
+
+Coeficientes encontrados:
+ A = g00(0) = -2*rho_0/c_s + rho_0/c_s**3
+ B = coef g00 (epsilon) = -4*rho_0/c_s + 2*rho_0/c_s**3
+ C = grr(0)  = rho_0/c_s
+ D = coef grr (epsilon) = 2*rho_0/c_s
+
+Factores de normalización:
+ s_t (temporal) = c_s**3/(rho_0*(2*c_s**2 - 1))
+ s_x (espacial) = c_s/rho_0
+
+Coeficientes lineales normalizados:
+ B_norm = -2
+ D_norm = 2
+
+RESULTADO simbólico para gamma:
+ gamma = 1
+
+========================================
+RESULTADO FINAL (simbólico): GAMMA = 1
