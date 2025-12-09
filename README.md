@@ -1,4 +1,4 @@
-# Hipótesis del Fondo Dinámico (Dynamic Background Hypothesis)
+## Hipótesis del Fondo Dinámico (Dynamic Background Hypothesis)
 
 [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17748410)
 [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17800468.svg)](https://doi.org/10.5281/zenodo.17800468)
@@ -17,6 +17,8 @@ La **Hipótesis del Fondo Dinámico** postula que el espacio-tiempo no es una ge
 3.  **Mecánica Cuántica:** Emerge de la hidrodinámica del medio (Onda Piloto).
 
 Este repositorio presenta la **Prueba de Concepto (PoC)** computacional que valida la consistencia interna y fenomenológica del modelo.
+
+**Current Version: v1.2 (Solar System Validated)**.
 
 ---
 
