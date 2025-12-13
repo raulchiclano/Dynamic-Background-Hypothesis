@@ -39,7 +39,9 @@ El proyecto se divide en 7 módulos de validación, utilizando la **Ecuación de
 *   **Simulación 06 (Doble Rendija):** Reproducción del patrón de interferencia cuántica utilizando dinámica de fluidos clásica. La "partícula" es guiada por las ondas que ella misma genera al pasar por las rendijas.
 
 ### 4. Cosmología y Energía Oscura
-*   **Simulación 04 (Criticalidad SOC):** Modelo dinámico que demuestra que la gravedad de largo alcance solo es estable en un universo con **Energía Oscura** (expansión acelerada). Se calcula el ajuste fino necesario ($\alpha \sim 10^{-62}$) para resolver el problema de la Constante Cosmológica.
+*   **Simulación 04 (Criticalidad SOC):** Modelo dinámico que demuestra que la gravedad de largo alcance solo es estable en un universo con **Energía Oscura**.
+*   **Simulación 11 (Historia Cósmica):** Integración numérica de las ecuaciones de Friedmann. Demuestra que el Fondo Dinámico reproduce la transición Materia -> Energía Oscura y predice una ecuación de estado dinámica ($w(z)$) tipo *Thawing Quintessence*.
+*   **Simulación 12 (Espacio de Parámetros):** Escaneo del plano $w_0 - w_a$ (CPL). Muestra que el modelo es compatible con los límites observacionales de Planck 2018 para valores moderados de la masa del campo.
 
 ---
 
