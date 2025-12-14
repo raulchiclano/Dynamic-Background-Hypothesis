@@ -1,47 +1,28 @@
 ## Hipótesis del Fondo Dinámico (Dynamic Background Hypothesis)
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17748410.svg)](https://doi.org/10.5281/zenodo.17714833)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833)
+
 [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17800468.svg)](https://doi.org/10.5281/zenodo.17800468)
+
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
 **Repositorio oficial de validación numérica y simbólica.**
 
 Este repositorio contiene el código fuente, simulaciones y derivaciones matemáticas que acompañan a la propuesta teórica: *"Una unificación emergente de la Gravedad, la Mecánica Cuántica y la Cosmología a través de la Hidrodinámica del Vacío"*.
 
-## Resumen del Proyecto
+> **Note for international researchers:** An interactive English version of the results and simulations is available at [**lab.raulchiclano.es**](https://lab.raulchiclano.es).
 
-La **Hipótesis del Fondo Dinámico** postula que el espacio-tiempo no es una geometría vacía, sino un fluido físico (superfluido) en estado condensado. En este marco:
-1.  **Materia:** Emerge como defectos topológicos (vórtices/nudos) estables.
-2.  **Gravedad:** Emerge como gradientes de densidad/presión (métrica acústica).
-3.  **Mecánica Cuántica:** Emerge de la hidrodinámica del medio (Onda Piloto).
+## **Abstract**
 
-Este repositorio presenta la **Prueba de Concepto (PoC)** computacional que valida la consistencia interna y fenomenológica del modelo.
+We present the **Dynamic Background Hypothesis**, an effective field theory (EFT) framework where spacetime geometry, matter, and dark energy emerge from the hydrodynamics of a single relativistic complex scalar field $\Psi$. By modeling the vacuum as a superfluid condensate with nonlinear saturation, we demonstrate that the acoustic metric of the fluctuations naturally reproduces the phenomenology of General Relativity in the weak-field limit.
 
-**Current Version: v1.2 (Solar System Validated)**.
+Analytic derivation of the Post-Newtonian parameters confirms that the model satisfies Solar System constraints with $\gamma_{PPN} = 1$, avoiding the need for screening mechanisms due to the high rigidity of the vacuum background ($\alpha \gg 10^{-30} \text{m}^{-2}$). Furthermore, we show that the effective Lagrangian exhibits a transition to a modified gravity regime (AQUAL-like) at low accelerations, offering a natural explanation for galactic rotation curves without particulate dark matter.
 
----
+Numerical simulations of the Gross-Pitaevskii equation validate the stability of topological defects (vortices/Hopfions) as matter candidates and reproduce quantum interference phenomena via pilot-wave dynamics. Finally, a cosmological parameter space scan reveals that the model predicts a *thawing quintessence* equation of state ($w_0 \gtrsim -1, w_a < 0$), consistent with Planck 2018 constraints on Dark Energy. This framework provides a parsimonious unification of the dark sector and gravity within a scalar field ontology.
 
-## Experimentos y Resultados
-
-El proyecto se divide en 7 módulos de validación, utilizando la **Ecuación de Gross-Pitaevskii (GPE)** y cálculo tensorial simbólico.
-
-### 1. Ontología de la Materia
-*   **Simulación 01 (Estabilidad):** Se demuestra que un vórtice con carga topológica $Q=1$ es una solución estable y persistente en el Fondo, validando el modelo de "partícula como nudo".
-*   **Simulación 02 (Interacción):** Dos vórtices interactúan dinámicamente generando fuerzas orbitales sin necesidad de potenciales externos.
-*   **Simulación 05 (Topología 3D):** Generación exitosa de un **Hopfión** (estructura toroidal anudada) en 3D, candidato para modelar partículas con espín.
-
-### 2. Gravedad Emergente
-*   **Simulación 03 (Lente Gravitacional):** Se simula el paso de un fotón cerca de una región de baja densidad ("masa"). El resultado muestra la curvatura de la luz debido a la refracción hidrodinámica, reproduciendo cualitativamente la Relatividad General.
-*   **Derivación 07 (Tensor de Einstein):** Cálculo simbólico (`SymPy`) que demuestra que la componente temporal del Tensor de Einstein derivado de la métrica acústica obedece a $G_{00} \propto \nabla^2 \rho$, recuperando la Ecuación de Poisson.
-
-### 3. Mecánica Cuántica (Onda Piloto)
-*   **Simulación 06 (Doble Rendija):** Reproducción del patrón de interferencia cuántica utilizando dinámica de fluidos clásica. La "partícula" es guiada por las ondas que ella misma genera al pasar por las rendijas.
-
-### 4. Cosmología y Energía Oscura
-*   **Simulación 04 (Criticalidad SOC):** Modelo dinámico que demuestra que la gravedad de largo alcance solo es estable en un universo con **Energía Oscura**.
-*   **Simulación 11 (Historia Cósmica):** Integración numérica de las ecuaciones de Friedmann. Demuestra que el Fondo Dinámico reproduce la transición Materia -> Energía Oscura y predice una ecuación de estado dinámica ($w(z)$) tipo *Thawing Quintessence*.
-*   **Simulación 12 (Espacio de Parámetros):** Escaneo del plano $w_0 - w_a$ (CPL). Muestra que el modelo es compatible con los límites observacionales de Planck 2018 para valores moderados de la masa del campo.
+***
 
 ---
 
