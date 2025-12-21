@@ -1,0 +1,6 @@
+--- DERIVACIÓN SIMBÓLICA T_mu_nu ---
+Derivada cinemática (dL/dg^inv): -d_psi**2/2
+Lagrangiana completa (L): -alpha*Psi(x)**2 - beta*Psi(x)**4 - d_psi**2*g_inv/2 - sigma*(Psi(x)**2)**(3/2)
+Término de fuente (dV/dPsi): 2*alpha*Psi(x) + 4*beta*Psi(x)**3 + 3*sigma*(Psi(x)**2)**(3/2)/Psi(x)
+
+

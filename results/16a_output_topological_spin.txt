@@ -1,0 +1,6 @@
+--- VALIDACIÓN DE ESTADÍSTICA TOPOLÓGICA ---
+Estado inicial (theta=0): 1
+Estado final (theta=2pi): -1
+Fase geométrica acumulada: pi
+RESULTADO: Psi -> -Psi detectado. Comportamiento Fermiónico confirmado.
+

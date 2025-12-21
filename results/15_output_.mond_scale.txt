@@ -1,0 +1,4 @@
+--- RESULTADO DEL SOLVER ALGEBRAICO ---
+La presión total derivada es: beta*rho**2 + rho**(3/2)*sigma/2
+El punto de transición (rho_c) calculado es: [sigma**2/(4*beta**2)]
+

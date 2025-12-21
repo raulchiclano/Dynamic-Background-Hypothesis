@@ -1,0 +1,4 @@
+--- TEST DE ESTABILIDAD DE LA MATERIA ---
+Energía total del defecto (Q=1/2): pi*log(R_cut)/2
+Comportamiento a larga distancia: oo
+
