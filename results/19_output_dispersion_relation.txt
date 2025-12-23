@@ -1,0 +1,20 @@
+--- SIMULACIÓN 19: DERIVACIÓN DE LA MÉTRICA ACÚSTICA ---
+
+1. Velocidad del sonido al cuadrado (cs^2) en el vacío:
+8⋅β⋅ρ + 3⋅√ρ⋅σ
+──────────────
+     4⋅m      
+
+2. Relación de Dispersión Completa (omega^2):
+         2 ⎛        3⋅√ρ⋅σ⎞
+ 2  4   k ⋅⎜2⋅β⋅ρ + ──────⎟
+h̅ ⋅k       ⎝          4   ⎠
+───── + ───────────────────
+    2            m         
+ 4⋅m                       
+
+3. Límite de Baja Energía (Ondas de luz/gravedad):
+    ________________
+k⋅╲╱ 8⋅β⋅ρ + 3⋅√ρ⋅σ 
+────────────────────
+        2⋅√m     

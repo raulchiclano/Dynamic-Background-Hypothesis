@@ -1,7 +1,7 @@
 # REPORTE TÉCNICO: SIMULACIÓN 12
 ## Mapeo del Espacio de Parámetros de Energía Oscura (Plano CPL)
 
-**Fecha:** [Fecha de Hoy]
+**Fecha:** 21/12/2025
 **Tipo:** Validación Observacional (Fase 2.2 - Tarea 3)
 **Código Fuente:** `sim_12_parameter_scan.py`
 

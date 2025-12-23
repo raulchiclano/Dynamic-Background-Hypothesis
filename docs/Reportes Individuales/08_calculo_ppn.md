@@ -1,7 +1,7 @@
 # REPORTE TÉCNICO: SIMULACIÓN 08
 ## Cálculo del Parámetro Post-Newtoniano Gamma ($\gamma$)
 
-**Fecha:** [Fecha de Hoy]
+**Fecha:** 08/12/2025
 **Tipo:** Validación Analítica (Fase 2.1)
 **Código Fuente:** `sim_08_calculo_ppn.py`
 

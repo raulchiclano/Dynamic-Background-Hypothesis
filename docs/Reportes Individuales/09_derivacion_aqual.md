@@ -1,7 +1,7 @@
 # REPORTE TÉCNICO: SIMULACIÓN 09
 ## Búsqueda del Régimen MOND/AQUAL en el Lagrangiano Efectivo
 
-**Fecha:** [Fecha de Hoy]
+**Fecha:** 08/12/2025
 **Tipo:** Validación Teórica (Fase 2.1 - Tarea 2)
 **Código Fuente:** `sim_09_derivacion_aqual.py`
 

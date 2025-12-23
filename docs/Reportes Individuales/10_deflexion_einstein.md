@@ -1,7 +1,7 @@
 # REPORTE TÉCNICO: SIMULACIÓN 10
 ## Test de Deflexión de la Luz y Régimen MOND
 
-**Fecha:** [Fecha de Hoy]
+**Fecha:** 08/12/2025
 **Tipo:** Validación Analítica (Fase 2.1 - Tarea 3)
 **Código Fuente:** `sim_10_calculo_deflexion.py`
 

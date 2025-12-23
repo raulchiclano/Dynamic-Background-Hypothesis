@@ -1,0 +1,18 @@
+--- SIMULACIÓN 20: COSTE ENERGÉTICO DE VIOLAR LORENTZ ---
+
+1. Densidad de energía V en función de la anisotropía (epsilon):
+    ⎛                             2 ⎛               2             ⎞                     
+  2 ⎜            2               ε ⋅⎝12⋅α + 192⋅β⋅eₜ  + 45⋅√2⋅eₜ⋅σ⎠       ⎛            2
+eₜ ⋅⎜2⋅α + 4⋅β⋅eₜ  + 2⋅√2⋅eₜ⋅σ + ────────────────────────────────── + 3⋅ε⋅⎝2⋅α + 8⋅β⋅eₜ 
+    ⎝                                            4                                      
+
+             ⎞
+            ⎞⎟
+ + 3⋅√2⋅eₜ⋅σ⎠⎟
+             ⎠
+
+2. Módulo de Restauración de Lorentz (Rigidez del Espaciotiempo):
+  2 ⎛             2   45⋅√2⋅eₜ⋅σ⎞
+eₜ ⋅⎜3⋅α + 48⋅β⋅eₜ  + ──────────⎟
+    ⎝                     4     ⎠
+

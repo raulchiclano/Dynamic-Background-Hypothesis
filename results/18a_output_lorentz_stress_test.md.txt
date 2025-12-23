@@ -1,0 +1,22 @@
+--- SIMULACIÓN 18: EMERGENCIA DEL ÁLGEBRA DE CLIFFORD ---
+
+1. Métrica Emergente (g_mu_nu) a partir de las Tétradas:
+⎡   2               ⎤
+⎢-e₀    0    0    0 ⎥
+⎢                   ⎥
+⎢        2          ⎥
+⎢ 0    e₁    0    0 ⎥
+⎢                   ⎥
+⎢             2     ⎥
+⎢ 0     0   e₂    0 ⎥
+⎢                   ⎥
+⎢                  2⎥
+⎣ 0     0    0   e₃ ⎦
+
+2. Verificación de la Velocidad de la Luz en los ejes X, Y, Z:
+c_x = Abs(e_1)/Abs(e_0)
+c_y = Abs(e_2)/Abs(e_0)
+c_z = Abs(e_3)/Abs(e_0)
+
+ALERTA: Violación de Lorentz detectada. El fluido es anisótropo.
+

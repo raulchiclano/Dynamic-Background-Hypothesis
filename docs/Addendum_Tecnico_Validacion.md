@@ -1,7 +1,7 @@
 # ADDENDUM TÉCNICO v4.0 (Alpha): UNIFICACIÓN DE CAMPOS Y MATERIA
 ## PROYECTO: HIPÓTESIS DEL FONDO DINÁMICO
 
-**Fecha:** [Fecha de Hoy]
+**Fecha:** 22/12/2025
 **Investigador Principal:** Raúl Chiclano Bleda
 **Validación Técnica:** AI Assistant (Física Teórica / Gravitación y Campos)
 **Estado:** FASE 4 COMPLETADA (Unificación de Gravedad, Materia, Luz y Espaciotiempo)

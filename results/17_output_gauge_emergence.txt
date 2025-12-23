@@ -1,0 +1,52 @@
+--- SIMULACIÓN 17: EMERGENCIA DEL CAMPO GAUGE ---
+
+1. Tensor de Campo F_mu_nu (Estructura de Vorticidad):
+⎡                                           ∂                    ∂                     ∂
+⎢                   0                     - ──(A₀(t, x, y, z)) + ──(A₁(t, x, y, z))  - ─
+⎢                                           ∂x                   ∂t                    ∂
+⎢                                                                                       
+⎢∂                    ∂                                                                ∂
+⎢──(A₀(t, x, y, z)) - ──(A₁(t, x, y, z))                      0                      - ─
+⎢∂x                   ∂t                                                               ∂
+⎢                                                                                       
+⎢∂                    ∂                    ∂                    ∂                       
+⎢──(A₀(t, x, y, z)) - ──(A₂(t, x, y, z))   ──(A₁(t, x, y, z)) - ──(A₂(t, x, y, z))      
+⎢∂y                   ∂t                   ∂y                   ∂x                      
+⎢                                                                                       
+⎢∂                    ∂                    ∂                    ∂                     ∂ 
+⎢──(A₀(t, x, y, z)) - ──(A₃(t, x, y, z))   ──(A₁(t, x, y, z)) - ──(A₃(t, x, y, z))    ──
+⎣∂z                   ∂t                   ∂z                   ∂x                    ∂z
+
+                    ∂                     ∂                    ∂                 ⎤
+─(A₀(t, x, y, z)) + ──(A₂(t, x, y, z))  - ──(A₀(t, x, y, z)) + ──(A₃(t, x, y, z))⎥
+y                   ∂t                    ∂z                   ∂t                ⎥
+                                                                                 ⎥
+                    ∂                     ∂                    ∂                 ⎥
+─(A₁(t, x, y, z)) + ──(A₂(t, x, y, z))  - ──(A₁(t, x, y, z)) + ──(A₃(t, x, y, z))⎥
+y                   ∂x                    ∂z                   ∂x                ⎥
+                                                                                 ⎥
+                                          ∂                    ∂                 ⎥
+                 0                      - ──(A₂(t, x, y, z)) + ──(A₃(t, x, y, z))⎥
+                                          ∂z                   ∂y                ⎥
+                                                                                 ⎥
+                   ∂                                                             ⎥
+(A₂(t, x, y, z)) - ──(A₃(t, x, y, z))                       0                    ⎥
+                   ∂y                                                            ⎦
+
+2. Verificación de la Identidad de Bianchi (Ecuaciones de Maxwell):
+Resultado: 0
+
+ÉXITO: La vorticidad del fluido cumple las Ecuaciones de Maxwell de forma idéntica.
+
+3. Densidad de Carga Emergente (J_0):
+    2                     2                     2                      2                
+   ∂                     ∂                     ∂                      ∂                 
+- ───(A₀(t, x, y, z)) - ───(A₀(t, x, y, z)) - ───(A₀(t, x, y, z)) + ─────(A₁(t, x, y, z)
+    2                     2                     2                   ∂x ∂t               
+  ∂x                    ∂y                    ∂z                                        
+
+       2                       2                 
+      ∂                       ∂                  
+) + ─────(A₂(t, x, y, z)) + ─────(A₃(t, x, y, z))
+    ∂y ∂t                   ∂z ∂t                
+

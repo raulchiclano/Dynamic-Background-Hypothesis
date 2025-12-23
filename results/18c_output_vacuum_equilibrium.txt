@@ -1,0 +1,17 @@
+--- SIMULACIÓN 18c (REVISADA): EQUILIBRIO DE PRESIONES ---
+
+1. Presión en el eje Temporal (P_t):
+         ⎛    2     2⎞
+-α - 2⋅β⋅⎝3⋅eₛ  - eₜ ⎠
+
+2. Presión en el eje Espacial (P_s):
+          ⎛    2     2⎞
+3⋅α + 6⋅β⋅⎝3⋅eₛ  - eₜ ⎠
+
+3. Balance de Presiones (P_t + P_s):
+          ⎛    2     2⎞
+2⋅α + 4⋅β⋅⎝3⋅eₛ  - eₜ ⎠
+
+4. Relación es/et requerida para el equilibrio (Velocidad de la luz c):
+[]
+
