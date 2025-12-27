@@ -1,69 +1,77 @@
-# Unified Emergent Gravity, Dark Energy, and Matter from a Relativistic Nematic Superfluid: The Dynamic Background Hypothesis (DBH)
+# The Dynamic Background Hypothesis (DBH) v4.0 Alpha
+## A Unified Pre-Geometric Theory of Gravity, Matter, and Homeostatic Cosmology
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833)
-[![Version](https://img.shields.io/badge/Version-3.5--Technical--Update-gold)](https://doi.org/10.5281/zenodo.17990700)
-[![Latest Research](https://img.shields.io/badge/Latest-v4.0--Alpha--Research-red)](https://github.com/raulchiclano/Dynamic-Background-Hypothesis)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17714833.svg)](https://doi.org/10.5281/zenodo.17714833)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-**Official repository for numerical and symbolic validation of the DBH framework.**
+### 1. Overview
+The **Dynamic Background Hypothesis (DBH)** is a unified field theory that models the physical vacuum as a **relativistic nematic superfluid substrate**. Unlike standard models that treat spacetime as a passive stage, the DBH derives geometry, matter, and forces as collective excitations of this active medium.
 
-The **Dynamic Background Hypothesis (DBH)** is a pre-geometric theory where spacetime, matter, and the dark sector emerge from the hydrodynamics of a relativistic nematic superfluid vacuum ($\Psi$).
-
----
-
-## **Milestone v3.5: The Analytical Foundation (Published)**
-*This version provides the mathematical closure for the gravitational and matter sectors.*
-
-*   **Analytical Closure of MOND:** Derivation of the transition density $\rho_c = \sigma^2/4\beta^2$, proving that the MOND acceleration scale $a_0$ is an emergent property of vacuum rheology, not a free parameter.
-*   **Topological Origin of Fermions:** Proof that $Q=1/2$ nematic defects acquire a **Berry Phase of $\pi$** under rotation, deriving Fermi-Dirac statistics from a scalar sustrate.
-*   **Logarithmic Confinement:** Energy stability analysis confirming that fermionic defects follow an $E \sim \ln(R)$ profile, explaining particle stability and charge neutrality.
+The v4.0 Alpha release marks a paradigm shift from force-based dynamics to **stability-based homeostasis**, providing a self-consistent explanation for the "Dark Sector" and the origin of fermionic matter.
 
 ---
 
-## **Current Frontier: v4.0 Alpha (The Unified Field)**
-*Ongoing research focused on the emergence of gauge fields and spacetime structure.*
-
-*   **Emergent Electromagnetism (Sim 17):** Derivation of **Maxwell's Equations** from vacuum vorticity. The field tensor $F_{\mu\nu}$ and the Bianchi Identity emerge as topological necessities of the fluid flow.
-*   **Lorentz Restoration (Sim 19-20):** Proof that **Lorentz Invariance** is the minimum energy state of the vacuum. We derive the speed of light $c$ from vacuum compressibility and quantify the "Spacetime Stiffness" ($K_L$) that prevents Lorentz violations.
-*   **Spacetime Skeleton (Sim 18):** Emergence of the 4D Minkowski metric from the local alignment of nematic directors (Tetrads).
-
----
-
-## **Technical Validation Suite**
-
-| Milestone | Script | Objective | Result |
-| :--- | :--- | :--- | :--- |
-| **v3.5** | `15_mond_scale.py` | Algebraic Solver for $a_0$ | $\rho_c = \sigma^2/4\beta^2$ |
-| **v3.5** | `16_berry_phase.py` | Topological Rotation | $\pi$ phase (Fermionic Spin) |
-| **v4.0** | `17_gauge_emergence.py` | Maxwell Derivation | Bianchi Identity = 0 |
-| **v4.0** | `19_dispersion.py` | Speed of Light Derivation | $\omega = ck$ (IR Limit) |
-| **v4.0** | `20_lorentz_stiffness.py` | Lorentz Stability | Restoration Module $K_L$ |
+### 2. Key Breakthroughs (v4.0 Alpha)
+*   **Unified Action v4:** Analytical derivation of the MOND scale ($a_0$) from vacuum rheology.
+*   **Emergent Electromagnetism:** Proof of Maxwell’s equations as the topological vorticity of the vacuum flow.
+*   **Lorentz Invariance as Equilibrium:** Derivation of the Minkowski metric as the minimum energy state of the substrate.
+*   **Homeostatic Cosmology:** Discovery of a stable attractor in the matter-background phase space, regulated by self-similar scaling laws (potentially linked to $\phi$).
 
 ---
 
-## **Repository Structure**
+### 3. Repository Structure
+The validation of the hypothesis is performed through symbolic tensor calculus (`SymPy`) and numerical simulations (`NumPy/SciPy`). The source code is organized by physical domain:
 
-The repository is organized to mirror the **DBH Roadmap** and the [Interactive Simulation Lab](https://lab.raulchiclano.es):
+*   **`/src`**: Python scripts for numerical and symbolic validation.
+    *   `01_materia/`: Vortex stability simulations (GPE).
+    *   `02_interaccion/`: Vortex pair dynamics.
+    *   `03_gravedad/`: Gravitational lensing and acoustic metric.
+    *   `04_cosmologia/`: Cosmic history and Dark Energy equation of state.
+    *   `05_topologia_3d/`: 3D Hopfion structures.
+    *   `06_cuantica/`: Double-slit interference (Pilot Wave).
+    *   `07_matematica/`: Symbolic derivation of the Einstein Tensor.
+    *   `13_fermiones_topologicos/`: Berry Phase and Spin-1/2 emergence.
+    *   `14_Tensor-Energía-Momento/`: Derivation of Action v4 and MOND scale ($a_0$).
+    *   `17_gauge_emergence/`: Emergence of Maxwell's equations from vorticity.
+    *   `20_lorentz_restoration/`: Lorentz restoration mechanism.
+    *   `21_termodinamica_homeostatica/`: Global attractor and gravitational genesis simulations.
 
-*   **`simulations/`**: Core interactive notebooks (`.ipynb`) categorized by research pillar:
-    *   **Part I (Microphysics):** Topological defects and fermionic emergence (Sim 16).
-    *   **Part II (Gravity & MOND):** Action v4 and galactic scale derivations (Sim 14, 15).
-    *   **Part III (Cosmology):** FLRW dynamics and parameter space scans (Sim 12).
-    *   **Part IV (Spacetime & Gauge):** Maxwell emergence and Lorentz restoration (Sim 17-20).
-*   **`docs/`**: Official academic papers, including the **Original Paper (v3.0)** and the **Technical Update (v3.5)**.
-*   **`requirements.txt`**: Python dependencies for symbolic and numerical validation.
+*   **`/docs`**: Theoretical documentation.
+    *   `DBH_v4.0_Alpha_Manifesto.pdf`: The definitive paper.
+    *   `Addendum_Tecnico_Validacion.md`: Detailed technical report.
+
+*   **`/results`**: Generated plots and output logs for all simulations.
 
 ---
 
-## **Citation**
+### 4. Quick Start
+To replicate the results, ensure you have Python 3.10+ installed with the following dependencies:
+```bash
+pip install numpy matplotlib scipy sympy
+```
+Run the core stability test:
+```bash
+python3 src/21_termodinamica_homeostatica/sim_21a_Homeostasis.py
+```
+
+---
+
+### 5. Documentation & Paper
+*   **Full Paper (v4.0 Alpha):** Available on [Zenodo](https://doi.org/10.5281/zenodo.17714833).
+*   **Research Hub:** Interactive notebooks and detailed theory at [lab.raulchiclano.es](https://lab.raulchiclano.es).
+
+---
+
+### 6. Citation
 If you use this work, please cite the Zenodo record for the analytical foundation:
-> Chiclano Bleda, R. (2025). *Unified Emergent Gravity, Dark Energy, and Matter from a Relativistic Nematic Superfluid: The Dynamic Background Hypothesis (v3.5)*. Zenodo. https://doi.org/10.5281/zenodo.17714833
+> Chiclano Bleda, R. (2025). *The Dynamic Background Hypothesis v4.0 Alpha: A Unified Pre-Geometric Theory of Gravity, Matter, and Homeostatic Cosmology*. Zenodo. https://doi.org/10.5281/zenodo.17714833
 
 ---
 
-## **License**
+### 7. License
 This work is licensed under **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.
 The source code is provided for scientific validation and reproducibility purposes.
 
 **Author:** Raúl Chiclano Bleda  
 **Contact:** raulchiclano@protonmail.com
-```
+
