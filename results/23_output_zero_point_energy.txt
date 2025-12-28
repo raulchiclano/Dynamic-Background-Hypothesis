@@ -1,0 +1,13 @@
+--- SIMULACIÓN 23: DERIVACIÓN DE LA INYECCIÓN S ---
+
+1. Expresión del integrando (Densidad espectral de S):
+        __________________
+   3   ╱     2  2    2  2 
+h̅⋅k ⋅╲╱  4⋅cₛ ⋅m  + h̅ ⋅k  
+──────────────────────────
+           4⋅m            
+
+2. Comportamiento en la Escala de Planck: S escala como k^4
+
+3. Dependencia fundamental de la inyección S:
+S es proporcional a (hbar^2 / m) * k_P^5

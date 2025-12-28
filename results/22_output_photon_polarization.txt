@@ -1,0 +1,32 @@
+(env) raulchiclano@ElementaryOS:~/TOE/Simulaciones/FASE_5/22_polarizacion$ python
+3 ./sim_22_photon_polarization.py
+--- SIMULACIÓN 22: POLARIZACIÓN DE LA LUZ ---
+
+1. Director Nemático perturbado (n):
+⎡         nₓ          ⎤
+⎢                     ⎥
+⎢         n_y         ⎥
+⎢                     ⎥
+⎢   __________________⎥
+⎢  ╱     2      2     ⎥
+⎣╲╱  - nₓ  - n_y  + 1 ⎦
+
+2. Modos de oscilación detectados:
+Modo 1 (Polarización X):
+⎡1⎤
+⎢ ⎥
+⎢0⎥
+⎢ ⎥
+⎣0⎦
+Modo 2 (Polarización Y):
+⎡0⎤
+⎢ ⎥
+⎢1⎥
+⎢ ⎥
+⎣0⎦
+
+3. Verificación de Transversalidad (Producto escalar con k):
+Modo X . k = 0
+Modo Y . k = 0
+
+ÉXITO: Se han derivado 2 estados de polarización transversal pura.
