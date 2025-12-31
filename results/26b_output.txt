@@ -1,0 +1,7 @@
+--- SIMULACIÓN 26b: TRANSICIÓN DE FASE Y CONFINAMIENTO ---
+/home/raulchiclano/Obsidian/Libros/Simetría/LongformProject/Notes/Documentación/TOE/Simulaciones/FASE_5/26/./26b.py:30: RuntimeWarning: overflow encountered in square
+  mag_sq = np.abs(psi)**2
+/home/raulchiclano/Obsidian/Libros/Simetría/LongformProject/Notes/Documentación/TOE/Simulaciones/FASE_5/26/./26b.py:37: RuntimeWarning: overflow encountered in multiply
+  dV = alpha * psi + beta * mag_sq * psi + sigma * np.sqrt(mag_sq + 1e-6) * psi
+/home/raulchiclano/Obsidian/Libros/Simetría/LongformProject/Notes/Documentación/TOE/Simulaciones/FASE_5/26/./26b.py:40: RuntimeWarning: invalid value encountered in multiply
+  psi += 1j * (0.5 * psi_lap - dV) * dt
