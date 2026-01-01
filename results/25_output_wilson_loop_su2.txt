@@ -1,0 +1,10 @@
+--- SIMULACIÓN 25: EL MECANISMO DE LA FUERZA DÉBIL ---
+
+1. Matriz de Holonomía Final (Bucle de Wilson):
+[[-0.915-0.013j -0.023+0.403j]
+ [ 0.023+0.403j -0.915+0.013j]]
+
+2. Traza de la Holonomía: -1.829
+
+ÉXITO: El mecanismo de transporte genera una curvatura de gauge.
+La partícula ha 'sentido' la Fuerza Débil a través del transporte local.

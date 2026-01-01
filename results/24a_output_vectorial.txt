@@ -1,0 +1,29 @@
+--- SIMULACIÓN 24: HOLONOMÍA NO-ABELIANA ---
+
+1. Matriz de Holonomía Defecto A (Giro PI en X):
+⎡1  0   0 ⎤
+⎢         ⎥
+⎢0  -1  0 ⎥
+⎢         ⎥
+⎣0  0   -1⎦
+
+2. Matriz de Holonomía Defecto B (Giro PI en Y):
+⎡-1  0  0 ⎤
+⎢         ⎥
+⎢0   1  0 ⎥
+⎢         ⎥
+⎣0   0  -1⎦
+
+3. Resultado Camino AB (Primero A, luego B):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦
+
+4. Resultado Camino BA (Primero B, luego A):
+⎡-1  0   0⎤
+⎢         ⎥
+⎢0   -1  0⎥
+⎢         ⎥
+⎣0   0   1⎦

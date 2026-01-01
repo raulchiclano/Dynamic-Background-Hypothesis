@@ -1,0 +1,25 @@
+--- SIMULACIÓN 24 (REVISADA): HOLONOMÍA DE ESPINOR ---
+
+1. Matriz de Holonomía A (Espinor en X):
+⎡0  ⅈ⎤
+⎢    ⎥
+⎣ⅈ  0⎦
+
+2. Matriz de Holonomía B (Espinor en Y):
+⎡0   1⎤
+⎢     ⎥
+⎣-1  0⎦
+
+3. Resultado Camino AB (Primero A, luego B):
+⎡ⅈ  0 ⎤
+⎢     ⎥
+⎣0  -ⅈ⎦
+
+4. Resultado Camino BA (Primero B, luego A):
+⎡-ⅈ  0⎤
+⎢     ⎥
+⎣0   ⅈ⎦
+
+ÉXITO: No-Abelianismo detectado en el nivel de Espinor.
+U_AB = -U_BA. El orden de los defectos genera una fase de Berry no trivial.
+Esta es la base matemática de la Fuerza Débil SU(2).
