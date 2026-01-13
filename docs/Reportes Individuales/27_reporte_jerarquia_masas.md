@@ -150,6 +150,3 @@ La escala de masa hadrónica emerge como la combinación de:
 
 Las correspondencias numéricas con constantes físicas conocidas se presentan como **señales estructurales**, no como derivaciones cerradas.  
 Su interpretación completa se traslada de forma natural a la **Fase 7**, donde los invariantes se consideran dinámicos y propagantes.
-
-
-- ayudarte a redactar el **documento de transición formal a la Fase 7** (ruta + objetivos).
